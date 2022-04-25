@@ -1,0 +1,40 @@
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ipython Notebook
+.ipynb_checkpoints
+
+# Emacs
+*~
+
+# Sublime Text
+*.sublime-*
+
+# Vim
+*.sw*
+
+# Pyenv
+.python-version
+
+# Vim
+*.sw*
+
+# pycharm
+.idea/
+venv/
+
+# AWS credentials
+.aws/
+
+# MacOS
+.DS_Store
+
+# vscode
+.vscode/

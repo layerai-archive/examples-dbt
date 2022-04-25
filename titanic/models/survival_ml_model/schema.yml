@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: survival_ml_model
+    config:
+      materialized: table  # table indicates the latest model version will be written to the underlying table
+    meta:
+      layer:
+        entrypoint: train.py
+        # fabric: 'f-medium'
+        fabric: 'local'
