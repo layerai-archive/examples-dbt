@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: imdb_reviews
+    description: >
+      A dataset containing 50K movie reviews with a 
+      sentiment score expressed as positive or negative.
+    tables:
+      - name: reviews
+        description: a movie review in plain text
+      - name: sentiment
+        description: positive or negative
+
+
+
+
