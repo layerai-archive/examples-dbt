@@ -10,7 +10,3 @@ sources:
         description: a movie review in plain text
       - name: sentiment
         description: positive or negative
-
-
-
-

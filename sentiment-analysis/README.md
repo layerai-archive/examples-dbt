@@ -19,4 +19,3 @@ my-bigquery:
       keyfile: <Path to the GCP keyfile>
       layer_project: <Name of the Layer project>
 ```
-
