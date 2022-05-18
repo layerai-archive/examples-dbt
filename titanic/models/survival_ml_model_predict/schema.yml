@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: survival_ml_model_prediction
+    config:
+      materialized: table  # table indicates the predictions will be written to the underlying table
+    meta:
+      layer:
+        fabric: 'local'
+        prediction_model: 'layer/titanic/models/survival_model:4.8'
