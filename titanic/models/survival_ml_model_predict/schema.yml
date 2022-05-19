@@ -7,4 +7,3 @@ models:
     meta:
       layer:
         fabric: 'local'
-        prediction_model: 'layer/titanic/models/survival_model:4.8'
