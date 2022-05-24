@@ -2,6 +2,8 @@
 
 This DBT project extracts the cloth objects in a product image with using a computer vision model from [Layer](https://app.layer.ai/layer/clothing/).
 
+![Layer Cloth Detector](assets/layer_cloth_detector.png)
+
 ## How to run
 
 First install Layer and the required libraries
