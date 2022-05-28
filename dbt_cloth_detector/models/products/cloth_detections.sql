@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 SELECT
-       p.id as product_id,
-       layer.predict("layer/clothing/models/detector", [p.image]) as objects
+       id,
+       layer.predict("layer/clothing/models/objectdetection", ARRAY[image])
 FROM
-     {{ ref("products") }} as p
+     {{ ref("products") }}
