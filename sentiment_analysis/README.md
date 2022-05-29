@@ -12,10 +12,10 @@ from {{ref('reviews')}}
 
 ## How to run
 
-First install Layer
+First install the DBT Layer Adapter
 
 ```shell
-pip install layer -U -q
+pip install dbt-layer-bigquery -U -q
 ```
 
 And seed the sample product reviews from Amazon
