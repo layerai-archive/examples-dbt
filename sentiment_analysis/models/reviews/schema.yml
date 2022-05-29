@@ -1,0 +1,6 @@
+
+version: 2
+
+models:
+  - name: sentiments
+    description: "Sentiments analysis of the multi language reviews"
