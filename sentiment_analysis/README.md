@@ -12,7 +12,7 @@ from {{ref('reviews')}}
 
 ## How to run
 
-First install Layer and the required libraries
+First install Layer
 
 ```shell
 pip install layer -U -q
