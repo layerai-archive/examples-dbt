@@ -4,7 +4,7 @@ These are example applications uses Layer and dbt. Each one is covering a differ
 
 ## Examples
 
-* [Cloth Detector](./dbt_cloth_detector) - Detects cloths from product images using a computer vision model from [Layer](https://app.layer.ai/layer/clothing/).
+* [Cloth Detector](./cloth_detector) - Detects cloths from product images using a computer vision model from [Layer](https://app.layer.ai/layer/clothing/).
 * [Sentiment Analysis](./sentiment_analysis) - An example shows how to make multi-language sentiment analysis.
 
 ## Prerequisites
