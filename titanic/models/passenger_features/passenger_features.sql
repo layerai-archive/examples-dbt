@@ -3,6 +3,7 @@ SELECT PassengerId,
        SibSp,
        Parch,
        Fare,
+       Survived,
        case
            when Sex = 'female' then 0
            when Sex = 'male' then 1
