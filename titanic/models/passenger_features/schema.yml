@@ -3,11 +3,4 @@ version: 2
 models:
   - name: passenger_features
     config:
-      materialized: table  # only table is supported for builds, all python datasets need to be materialized
-    meta:
-      layer:
-        # entrypoint: build.py
-        entrypoint: //models/passenger_features/build.py
-        # fabric: 'f-medium'
-        fabric: 'local'
-        # streaming: true
+      materialized: table
