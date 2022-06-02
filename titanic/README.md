@@ -22,6 +22,12 @@ First install the open-source [Layer dbt Adapter](https://github.com/layerai/dbt
 pip install dbt-layer-bigquery -U -q
 ```
 
+The machin learning model we are going to use is a Scikit-Learn model, let's install the required library:
+
+```shell
+pip install scikit-learn==1.0.2
+```
+
 Add a new bigquery profile to your [dbt profile](https://docs.getdbt.com/dbt-cli/configure-your-profile/). Name it as `layer-profile`, and don't forget to set `type: layer_bigquery` for Layer to work. Here is a sample profile:
 
 
