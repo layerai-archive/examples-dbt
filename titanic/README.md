@@ -9,7 +9,7 @@ In this example, we use a pre-trained model to apply predictions to a dataset. W
 We do this in a dbt pipeline with two stages:
 
 - First, we build a dbt model to shape our data into the features required by the model. We call this dbt model `passenger_features`.
-- Then, we will build a second dbt model which applies the [Titanic survival model](https://app.layer.ai/layer/titanic) to the `passenger_features` data to predict the survival of the Titanic passengers. 
+- Then, we build a second dbt model which applies the [Titanic survival model](https://app.layer.ai/layer/titanic) to the `passenger_features` data to predict the survival of the Titanic passengers. 
 
 The Layer dbt adapter provides a simple SQL function that seamlessly integrates the ML Model in the dbt pipeline without the need to step out from our familiar SQL language.  
 
