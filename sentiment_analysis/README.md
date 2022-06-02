@@ -60,7 +60,7 @@ dbt run
 Once the project is run, Layer will fetch the reviews from `ref('products')` and classify the review from 1 to 5.
 
 
-## Model
+## Machine Learning Model
 
 In this DBT example, we use a Bert model finetuned on product reviews in six languages: English, Dutch, German, French, Spanish and Italian. It predicts the sentiment of the review as a number of stars (between 1 and 5).
 
