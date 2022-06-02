@@ -1,4 +1,4 @@
-# Sentiment Analysis in DBT Dag
+# Sentiment analysis in dbt dag
 
 In this tutorial, we will see how to make multi-language sentiment analysis inside DBT Dag with a simple sql like:
 

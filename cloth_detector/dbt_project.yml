@@ -2,7 +2,7 @@ name: 'dbt_cloth_detector'
 version: '1.0.0'
 config-version: 2
 
-# To start using Layer DBT Adapter, create a new profile.
+# To start using Layer dbt Adapter, create a new profile.
 # Example:
 # layer-profile:
 #  target: dev

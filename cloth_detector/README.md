@@ -1,8 +1,8 @@
-# Cloth Detection in DBT Dag
+# Cloth detection in dbt dag
 
 ![Layer Cloth Detector](assets/layer_cloth_detector.png)
 
-This DBT project shows how to extract the cloth information in product images with a simple sql inside DBT Dag like:
+This dbt project shows how to extract the cloth information in product images with a simple sql inside dbt dag like:
 
 ```sql
 SELECT
@@ -14,16 +14,16 @@ FROM
 
 ## How it works?
 
-We introduce a special SQL function called `layer.predict()` as you can see above. With this function, you can fetch any ML model from Layer and apply it to your data inside the DBT Dag. When you run the above sql:
+We introduce a special SQL function called `layer.predict()` as you can see above. With this function, you can fetch any ML model from Layer and apply it to your data inside the dbt Dag. When you run the above sql:
 1. Layer fetches the `products` table with the required `id` and `image` columns from your BigQuery.
 2. Layer fetches [this computer vision model](https://app.layer.ai/layer/clothing) from Layer as requested in the predict function with `layer/clothing/models/objectdetection`
-3. Layer reads all the images from products table and extract what's in the image and return it to DBT to store the extracted information in your BigQuery.
+3. Layer reads all the images from products table and extract what's in the image and return it to dbt to store the extracted information in your BigQuery.
 
 
 
 ## How to run
 
-First install the open-source [Layer DBT Adapter](https://github.com/layerai/dbt-adapters). Right now, we only support Bigquery (more to come soon)
+First install the open-source [Layer dbt Adapter](https://github.com/layerai/dbt-adapters). Right now, we only support Bigquery (more to come soon)
 
 ```shell
 pip install dbt-layer-bigquery -U -q
@@ -36,7 +36,7 @@ git clone https://github.com/ultralytics/yolov5
 pip install -r yolov5/requirements.txt
 ```
 
-Add a new bigquery profile to your [DBT profile](https://docs.getdbt.com/dbt-cli/configure-your-profile/). Name it as `layer-profile`, and don't forget to set `type: layer_bigquery` for Layer to work. Here is a sample profile:
+Add a new bigquery profile to your [dbt profile](https://docs.getdbt.com/dbt-cli/configure-your-profile/). Name it as `layer-profile`, and don't forget to set `type: layer_bigquery` for Layer to work. Here is a sample profile:
 
 
 ```yaml
