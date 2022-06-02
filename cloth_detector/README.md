@@ -1,4 +1,4 @@
-# Layer Cloth Detector
+# Cloth Detection in DBT Dag
 
 ![Layer Cloth Detector](assets/layer_cloth_detector.png)
 
