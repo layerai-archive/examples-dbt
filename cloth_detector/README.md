@@ -54,7 +54,7 @@ layer-profile:
 
 Clone this repo:
 ```shell
-git clone https://github.com/layerai/dbt-adapters
+git clone https://github.com/layerai/examples-dbt
 cd cloth_detector
 ```
 
