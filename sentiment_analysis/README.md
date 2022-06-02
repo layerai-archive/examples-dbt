@@ -42,7 +42,7 @@ layer-profile:
 Clone this repo:
 ```shell
 git clone https://github.com/layerai/examples-dbt
-cd sentiment_analysis
+cd examples-dbt/sentiment_analysis
 ```
 
 And seed the sample [reviews table](seeds/reviews.csv) which includes random multi-language product reviews from Amazon.

@@ -66,7 +66,7 @@ Now, are are ready to run the example.
 To get the code, clone this repo, and go to the `titanic` example folder:
 ```shell
 git clone https://github.com/layerai/examples-dbt
-cd titanic
+cd examples-dbt/titanic
 ```
 
 The example is self-contained and includes sample data that we need to insert in our DWH. 

@@ -55,7 +55,7 @@ layer-profile:
 Clone this repo:
 ```shell
 git clone https://github.com/layerai/examples-dbt
-cd cloth_detector
+cd examples-dbt/cloth_detector
 ```
 
 And seed the sample [products table](seeds/products.csv) with some random product and product images from Amazon
