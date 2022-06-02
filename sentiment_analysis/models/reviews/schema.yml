@@ -2,5 +2,7 @@
 version: 2
 
 models:
-  - name: sentiments
+  - name: review_sentiments
     description: "Sentiments analysis of the multi language reviews"
+    config:
+      materialized: table
