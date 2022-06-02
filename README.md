@@ -1,19 +1,12 @@
 # Layer dbt Adapter examples
 
-These are example applications uses Layer and dbt. Each one is covering a different real-world problems.
+These are example applications uses Layer and dbt. Each one is covering a different machine learning problem.
 
 ## Examples
 
-* [Cloth Detector](./cloth_detector) - Detects cloths from product images using a computer vision model from [Layer](https://app.layer.ai/layer/clothing/).
+* [Titanic](./titanic) - Predicts the survivals of the Titanic disaster.
 * [Sentiment Analysis](./sentiment_analysis) - An example shows how to make multi-language sentiment analysis.
-
-## Prerequisites
-
-- `dbt-layer-bigquery` adapter which can be installed via below:
-    ```shell
-    pip install dbt-layer-bigquery -U -q
-    ```
-
+* [Cloth Detector](./cloth_detector) - Detects cloths from product images using a pretrained computer vision model.
 
 ### Resources:
 - Learn more about Layer [in the docs](https://docs.app.layer.ai/docs/)
